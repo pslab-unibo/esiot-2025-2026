@@ -22,5 +22,5 @@ A number of kits are available for doing practice. The kit is composed by three 
   - servo-motor HS-53 (or equivalent)
 
 - **IoT PART**
-  - ESP32 single-board SOC
+  - ESP32 single-board SOC + cable (USB-microUSB)
 

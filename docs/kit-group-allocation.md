@@ -2,11 +2,11 @@
 
 ## Kit/Group Allocation
 
-v. 1.0.0-20250829
+v. 1.0.0-20250924
  
 | Kit No.     | Group Members | Allocation Date | Return Date | 
 | ----------- | ------------- | --------------- | ----------- |
-| 1           |               |                 |             |
+| 1           |  alfa, beta, gamma |  20250924  |             |
 | 2           |               |                 |             |
 | 3           |               |                 |             |
 | 4           |               |                 |             |
