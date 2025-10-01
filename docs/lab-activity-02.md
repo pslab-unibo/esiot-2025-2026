@@ -14,7 +14,5 @@ v. 1.0.0-20250930
     - remarks on the super-loop
   - button-led system
   - analog input - using a potentiometer
-  - analog output - fading
-  - About the super loop - a look to [Arduino core implementation](https://github.com/arduino/ArduinoCore-avr/blob/master/cores/arduino/main.cpp)
 
 
