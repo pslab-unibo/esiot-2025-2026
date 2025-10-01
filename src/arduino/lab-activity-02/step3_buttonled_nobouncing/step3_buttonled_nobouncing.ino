@@ -19,14 +19,11 @@ void loop() {
     count++;
     Serial.println(String("Pressed - count: ") + count);
     already_pressed = true;   
-    delay(100);
+    /* this delay is used to avoid bouncing */
+    /* the value can change depending on the quality of the button */
+    delay(50);
   } else {
     digitalWrite(LED_PIN, LOW); 
     already_pressed = false;
   }
-  
-  /* this delay is used to avoid bouncing */
-  /* the value can change depending on the quality of the button */
-    
-  delay(50);
-}
+ }
