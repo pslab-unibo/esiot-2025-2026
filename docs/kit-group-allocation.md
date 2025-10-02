@@ -6,7 +6,7 @@ v. 1.1.0-20250926
  
 | Kit No.     | Group Members | Allocation Date | Return Date | 
 | ----------- | ------------- | --------------- | ----------- |
-| 1           |  Ricciotti, Visani, Reggiani |  20250924  |             |
+| 1           |  Francalanci  | 20251002        |             |
 | 2           |  Scarcelli, Ventura, Magi | 20250924                |             |
 | 3           |  Spagnoli, Spaccini, Greppi | 20250924                 |             |
 | 4           |  Porcheddu, Ceccarelli, Napolitano, Todeschi | 20250924              |             |
@@ -34,5 +34,6 @@ v. 1.1.0-20250926
 | 26          |  Bochdanovits de Kavna, Rebosio | 20250924                |             |
 | 27          |  Savevski |       20250924          |             |
 | 28          |  Katrenov |  20250926               |             |
+| 29          |  Foschini, Pertegato, Valerii |  2025100          |             |
 
  
