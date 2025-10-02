@@ -34,6 +34,7 @@ v. 1.1.0-20250926
 | 26          |  Bochdanovits de Kavna, Rebosio | 20250924                |             |
 | 27          |  Savevski |       20250924          |             |
 | 28          |  Katrenov |  20250926               |             |
-| 29          |  Foschini, Pertegato, Valerii |  2025100          |             |
+| 29          |  Foschini, Pertegato, Valerii |  20251001          |             |
+| 30          |  Patrignani, Perreon |  20251001          |             |
 
  
