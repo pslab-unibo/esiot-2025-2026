@@ -6,7 +6,7 @@ v. 1.1.0-20250926
  
 | Kit No.     | Group Members | Allocation Date | Return Date | 
 | ----------- | ------------- | --------------- | ----------- |
-| 1           |  Francalanci  | 20251002        |             |
+| 1           | 			   |                 |             |
 | 2           |  Scarcelli, Ventura, Magi | 20250924                |             |
 | 3           |  Spagnoli, Spaccini, Greppi | 20250924                 |             |
 | 4           |  Porcheddu, Ceccarelli, Napolitano, Todeschi | 20250924              |             |
@@ -32,7 +32,7 @@ v. 1.1.0-20250926
 | 24          |  Gardini, Fucci, ouakani, Rossi |   20250924              |             |
 | 25          |  Mariani, Grandini, Santarelli |  20250924               |             |
 | 26          |  Bochdanovits de Kavna, Rebosio | 20250924                |             |
-| 27          |  Savevski |       20250924          |             |
+| 27          |  Savevski, Xu |       20250924          |             |
 | 28          |  Katrenov |  20250926               |             |
 | 29          |  Foschini, Pertegato, Valerii |  20251001          |             |
 | 30          |  Patrignani, Perreon |  20251001          |             |
