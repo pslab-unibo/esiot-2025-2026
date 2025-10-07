@@ -11,7 +11,7 @@ We want to realise an embedded system implementing a game called *Turn on the Se
 The game board includes 4 green leds L1, L2, L3, L4 and red led LS, four tactile buttons B1, B2, B3, B4 and a potentiometer Pot, and an LCD. This is the suggested  layout:
 
 
-![layout](https://github.com/pslab-unibo/esiot-2025-2026/tree/master/docs/images/assignment-01-sketch.png)
+![layout](assignment-01-sketch.png)
 
 During the game, the system repeatedly displays on the LCD a number of 4 distinct digits, each digit in the range 1 to 4 (e.g. "1234", "3421"). Given the four digits, the player must turn on the leds in the proper order, using the corresponding tactile buttons. Example: if the number displayed is "4132", then the player must turn on in sequence L4, then L1, then L3, and finally L2, by pressing in sequence B4, B1, B3, B2. Each button Bi turns on the corresponding led Li. Each game involves multiple rounds. At each round, a new 4-digits number is chosen (at random) and displayed, and the player has a maximum amount T1 of time to turn on the sequence. If the player does it right, a score - starting from zero - is increased and the game goes on, with another round, but  reducing the times T1 of some factor F.  If the player does not turn the sequence on time or makes mistakes, the red led Ls is turned on for 2 seconds and the game ends, displaying the score on the LCD. 
 
