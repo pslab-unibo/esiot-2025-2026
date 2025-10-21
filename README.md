@@ -7,7 +7,7 @@ This repo contains docs and source code of the ESIOT course.
   - [Lab Activity #01](https://github.com/pslab-unibo/esiot-2025-2026/tree/master/docs/lab-activity-01.md)
 - [Lab source code](https://github.com/pslab-unibo/esiot-2025-2026/tree/master/src)
 - Assignments
-  - Assignment 01 - TBA
+  - [Assignment 01](./docs/assignment-01.md) - *Basic microcontroller programming: Turn on the Sequence! (TOS)*
   - Assignment 02 - TBA
   - Assignment 03 - TBA
 
