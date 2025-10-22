@@ -27,7 +27,7 @@ v. 1.1.0-20250926
 | 19          |  Bizzocchi, Merlini | 20250924                |             |
 | 20          |  Prandini, D'Amario | 20250924                |             |
 | 21          |  Fronzi, Siboni |   20250924              |             |
-| 22          |  Azhar, Chbraoui |  20250924               |             |
+| 22          |  Azhar |  20250924               |             |
 | 23          |  Ranzari, El Yaakoubi, Kravchuk | 20250924                |             |
 | 24          |  Gardini, Fucci, ouakani, Rossi |   20250924              |             |
 | 25          |  Mariani, Grandini, Santarelli |  20250924               |             |
