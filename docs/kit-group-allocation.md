@@ -6,7 +6,7 @@ v. 1.1.0-20250926
  
 | Kit No.     | Group Members | Allocation Date | Return Date | 
 | ----------- | ------------- | --------------- | ----------- |
-| 1           | 			   |                 |             |
+| 1           |  Nguyen Thanh Tung			   | 20251019                 |             |
 | 2           |  Scarcelli, Ventura, Magi | 20250924                |             |
 | 3           |  Spagnoli, Spaccini, Greppi | 20250924                 |             |
 | 4           |  Porcheddu, Ceccarelli, Napolitano, Todeschi | 20250924              |             |
