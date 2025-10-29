@@ -7,7 +7,7 @@ v. 1.0.0-20251029
 **Working with digital sensors**
 
 - **HC-SR04 Ultrasonic sensor** module - [User guide](https://www.handsontec.com/dataspecs/HC-SR04-Ultrasonic.pdf)
-  - example in Arduino `test_utrasonic_sensor`- highlights  
+  - example in Arduino `test_ultrasonic_sensor`- highlights  
     - `pulseIn` function
 
 - **HCSR501 PIR** module - [Datasheet](https://components101.com/sensors/hc-sr501-pir-sensor)
