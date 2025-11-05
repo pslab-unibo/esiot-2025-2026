@@ -6,7 +6,7 @@ v. 1.0.0-20251104
  
 **OOP in Arduino**
 
-- slides: `Lab Notes - OOP for Arduino - From Java to C++`
+- slides: `[Lab Notes] OOP for Arduino - From Java to C++`
 - examples in: `esiot-2025-2026/src/arduino/lab-activity-06/oop` folder
 
 **Working with actuators: servo motors** 
@@ -58,7 +58,7 @@ v. 1.0.0-20251104
   
 **Arduino/PC Communication via Serial Port**
 
-- slides: `Lab Notes - Arduino/PC Serial Communication`
+- slides: `[Lab Notes] Arduino/PC Serial Communication`
 - Material on the repo
   - Java side: `esiot-2025-2026/src/java/lab-activity-06/serial`
   - Arduino side: `esiot-2025-2026/src/arduino/lab-activity-06/serial`
@@ -68,6 +68,8 @@ v. 1.0.0-20251104
     - Java side (from `esiot-2025-2026/src/java/lab-activity-06/serial`):
 
 		`java -cp bin:lib/jssc-2.9.4.jar esiot.serial.ShowSerialPorts`
+
+    **NOTE**: the classpath separator (in `bin:lib/jssc-2.9.4.jar`) is `:` in Linux/Mac, `;` in Windows
 
   - Simple serial monitor
     - Arduino side: running any program sending messages on the serial port
