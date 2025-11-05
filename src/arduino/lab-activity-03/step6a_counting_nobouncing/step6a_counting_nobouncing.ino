@@ -1,5 +1,5 @@
 #define BUTTON_PIN 2
-#define DEBOUNCE_TIME 40
+#define DEBOUNCE_TIME 100
 
 volatile int count = 0;
 int prev = 0;
@@ -28,5 +28,5 @@ void inc()
   if (ts - prevts > DEBOUNCE_TIME){
     count++;
     prevts = ts;
-  }
+  } 
 }

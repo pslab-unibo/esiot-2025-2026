@@ -1,4 +1,4 @@
-#define BUTTON_PIN 2
+#define BUTTON_PIN 6
 
 volatile int count;
 
@@ -15,6 +15,7 @@ void loop()
   int current = count;
   interrupts();
   Serial.println(current);
+  // delay(1000);
 }
 
 /* interrupt handler */

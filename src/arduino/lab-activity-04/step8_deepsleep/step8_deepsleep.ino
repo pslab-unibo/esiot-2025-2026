@@ -9,6 +9,9 @@ void setup(){
 }
 
 void loop(){
+  delay(500);
+  long currentTime = millis();
+  Serial.println("Time before: ..." + String(currentTime));
   Serial.println("GOING IN POWER DOWN IN 1s ...");
   Serial.flush();
   delay(1000);
@@ -20,4 +23,7 @@ void loop(){
   sleep_disable();   
   /** The program will continue from here. **/  
   Serial.println("WAKE UP");
+  currentTime = millis();
+  Serial.println("Time after: ..." + String(currentTime));
+ 
 }

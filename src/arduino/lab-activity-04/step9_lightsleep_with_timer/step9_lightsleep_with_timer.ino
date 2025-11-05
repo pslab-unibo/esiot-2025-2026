@@ -6,7 +6,7 @@ Timer timer;
 
 void setup(){  
   Serial.begin(9600);  
-  timer.setupPeriod(10000);
+  timer.setupPeriod(5000);
 }
 
 /*

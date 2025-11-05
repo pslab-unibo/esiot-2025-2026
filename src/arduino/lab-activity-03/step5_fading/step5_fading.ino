@@ -1,5 +1,5 @@
 // this should be a pin supporting PWM
-#define LED_PIN 10
+#define LED_PIN 9
 
 int brightness;
 int fadeAmount;

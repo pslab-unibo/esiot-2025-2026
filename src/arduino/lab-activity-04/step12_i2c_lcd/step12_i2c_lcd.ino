@@ -11,6 +11,6 @@ void setup() {
 }
 
 void loop() {
-  lcd.setCursor(2, 1); // Set the cursor on the third column and first row.
+  lcd.setCursor(0, 0); // Set the cursor on the third column and first row.
   lcd.print("Hello World!");
 }

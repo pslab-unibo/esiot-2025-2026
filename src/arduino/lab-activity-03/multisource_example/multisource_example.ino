@@ -2,7 +2,6 @@
 
 #include "lib.h"
 
-
 /* global vars */
 
 int count;
