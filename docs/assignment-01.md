@@ -28,7 +28,7 @@ During the game, at each round:
 - Then, the player has max T1 time for turning on the corresponding leds in sequence, by pressing the buttons B1…B4 (each button Bi turns on the corresponding led Li).
 - If the player turns on the correct led sequence on time, then:
   - the score is increased and a message "GOOD! Score: XXX" (where XXX is the current score) is displayed on the LCD. 
-  - The game does not turn on the on with another round, by reducing the time T1 of some factor F.  
+  - The game goes on with another round, by reducing the time T1 of some factor F.  
 - If the player either does not turn on the sequence on time or makes mistakes, then the red led Ls  is turned on for 2 seconds and the game ends. A message `Game Over - Final Score XXX` (where `XXX` is the final score) is displayed on the LCD (on multiple lines) for 10 seconds, then the game restarts from the initial state.
 
 Before starting the game, the potentiometer Pot device can be used to set the difficulty L level  which could be a value in the range 1..4 (1 easiest, 4 most difficult). The level must affect the value of the factor F (so that the more difficult the game is, the greater the factor F must be). 
