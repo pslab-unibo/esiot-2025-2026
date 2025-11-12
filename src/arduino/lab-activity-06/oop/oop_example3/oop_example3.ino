@@ -32,7 +32,7 @@ void setup(){
 }
 
 void loop(){
-  ((Piano*)list[0])->play();
+  //((Piano*)list[0])->play();
   
   for (int i = 0; i < 2; i++){
     list[i]->play();
