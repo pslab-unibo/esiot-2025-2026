@@ -2,7 +2,7 @@
 
 ## Assignment #02 - *Smart Drone Hangar* 
 
-v1.1.0-20251112
+v1.1.1-20251112
  
 We want to realise an embedded system called *Smart Drone Hangar*. The prototype  is meant to implement a simple smart hangar for a drone. 
 
@@ -40,7 +40,7 @@ When the drone approaches the hangar, it sends the opening command (via **DRU**)
 
 During the take-off and landing phases, **L2** blinks, with period 0.5 second -- otherwise it is off.
 
-Whenever the drone is inside the hangar (whether at rest, during take-off, or during landing), the temperature monitoring system is active to check for potential problems. If a temperature ≥ `Temp1` is detected for more than `T3` seconds, the system enters a pre-alarm state. In this state, take-offs and landings are suspended, and the door remains closed. If a take-off or landing is already in progress, it is allowed to complete. If the temperature drops below `Temp1`, the system returns to normal operation. If a temperature `Temp2` > `Temp1` is detected for more than `T4` seconds, the **HD** door is closed (if it was open), the **L3** indicator light turns on, and the **LCD** displays `ALARM`. If the drone is outside the hangar, the `ALARM` message is also sent to the drone via **DRU**. All operations are suspended until the **RESET** button is pressed by an operator. When **RESET** is pressed, it is assumed that all issues have been resolved, and the system returns to the normal state.
+Whenever the drone is inside the hangar (whether at rest, during take-off, or during landing), the temperature monitoring system is active to check for potential problems. If a temperature ≥ `Temp1` is detected for more than `T3` seconds, the system enters a pre-alarm state. In this state, new take-offs and landings are suspended until the system returns to normal operation. If a take-off or landing is already in progress, it is allowed to complete. If the temperature drops below `Temp1`, the system returns to normal operation. If a temperature `Temp2` > `Temp1` is detected for more than `T4` seconds, the **HD** door is closed (if it was open), the **L3** indicator light turns on, and the **LCD** displays `ALARM`. If the drone is outside the hangar, the `ALARM` message is also sent to the drone via **DRU**. All operations are suspended until the **RESET** button is pressed by an operator. When **RESET** is pressed, it is assumed that all issues have been resolved, and the system returns to the normal state.
 
 The value of the `D1`,`D2`,`T1`,`T2`,`T3`,`T4`,`Temp1`,`Temp2` parameters is not fixed/specified (to be chosen, useful for prototyping/testing the system).
 
