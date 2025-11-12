@@ -9,9 +9,9 @@ We want to realise an embedded system called *Smart Drone Hangar*. The prototype
 
 ### Description 
 
-#### Components
-
 ![layout](assignment-02-sketch.png)
+
+#### Components
 
 The system is composed by two subsystems:
 
