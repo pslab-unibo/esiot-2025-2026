@@ -6,10 +6,9 @@ v1.0.0-20251112
  
 We want to realise an embedded system called *Smart Drone Hangar*. The prototype  is meant to implement a simple smart hangar for a drone. 
 
+![layout](assignment-02-sketch.png)
 
 ### Description 
-
-![layout](assignment-02-sketch.png)
 
 #### Components
 
