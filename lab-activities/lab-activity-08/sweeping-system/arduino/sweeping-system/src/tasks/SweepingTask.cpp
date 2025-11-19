@@ -22,6 +22,7 @@ void SweepingTask::tick(){
         }
         if (pButton->isPressed()){
             pContext->setStarted();
+            pMotor->on();
             currentPos = 0;
             toBeStopped = false;
             setState(SWEEPING_FWD);
@@ -90,6 +91,7 @@ void SweepingTask::tick(){
         }
         pMotor->setPosition(0);
         if (elapsedTimeInState() > RESET_TIME){
+            pMotor->off();
             setState(IDLE);
         }
     }
