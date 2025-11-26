@@ -40,7 +40,7 @@ void setup() {
 #ifdef __TESTING_HW__
   /* Testing */
   Task* pTestHWTask = new TestHWTask(pHWPlatform);
-  pTestHWTask->init(50);
+  pTestHWTask->init(2000);
   sched.addTask(pTestHWTask);
 #endif
 }

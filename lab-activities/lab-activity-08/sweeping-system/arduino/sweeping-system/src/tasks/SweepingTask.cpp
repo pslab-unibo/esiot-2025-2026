@@ -21,11 +21,7 @@ void SweepingTask::tick(){
             Logger.log(F("[SWT] IDLE"));
         }
         if (pButton->isPressed()){
-            pContext->setStarted();
-            pMotor->on();
-            currentPos = 0;
-            toBeStopped = false;
-            setState(SWEEPING_FWD);
+            setState(STARTING);
         }
         break;
     }
@@ -75,16 +71,19 @@ void SweepingTask::tick(){
         }
         break;       
     }
-    /*
     case STARTING: {
         if (this->checkAndSetJustEntered()){
             Logger.log(F("[SWT] STARTING"));
         }
         if (elapsedTimeInState() > START_TIME){
+            pContext->setStarted();
+            pMotor->on();
+            currentPos = 0;
+            toBeStopped = false;
             setState(SWEEPING_FWD);
         }
         break;
-    }*/
+    }
     case RESETTING: {
         if (this->checkAndSetJustEntered()){
             Logger.log(F("[SWT] RESETTING"));
