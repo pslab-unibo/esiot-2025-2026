@@ -7,7 +7,7 @@
 TaskHandle_t Task1;
 TaskHandle_t Task2;
 
-const int led_1 = LED_BUILTIN;
+const int led_1 = 2; // LED_BUILTIN;
 const int led_2 = 5;
 
 void setup() {
