@@ -17,6 +17,7 @@ This repo contains docs and source code of the ESIOT course.
   - [Lab Activity #09](./lab-activities/lab-activity-09/README.md)
   - [Lab Activity #10](./lab-activities/lab-activity-10/README.md)
   - [Lab Activity #11](./lab-activities/lab-activity-11/README.md)
+
 - Assignments
   - [Assignment 01](./assignments/assignment-01.md) - *Turn on the Sequence! (TOS)*
   - [Assignment 02](./assignments/assignment-02.md) - *Smart Drone Hangar (SDH)*
